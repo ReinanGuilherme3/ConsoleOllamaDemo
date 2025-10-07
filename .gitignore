@@ -1,0 +1,121 @@
+# ===========================================
+# 🌐 .NET / C# Console Application .gitignore
+# ===========================================
+
+## Build artifacts
+bin/
+obj/
+out/
+publish/
+TestResults/
+[Ll]og/
+Logs/
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio / VSCode
+.vs/
+.vscode/
+*.code-workspace
+
+## Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+## Configuration and secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.secret
+*.key
+*.pem
+*.pfx
+
+## Environment variables
+.env
+.env.*
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget.props
+*.nuget.targets
+packages/
+project.lock.json
+
+## Rider / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+## Logs and profiling
+*.log
+*.etl
+*.dmp
+*.trace
+*.coverage
+*.coveragexml
+
+## Resharper / Analyzer / Code Style
+_ReSharper*/
+*.DotSettings.user
+*.vspscc
+*.vssscc
+
+## Docker / Containers
+docker-compose.override.yml
+.docker/
+Dockerfile.*
+.dockerignore
+
+## Ollama / AI models (local)
+ollama_models/
+ollama_cache/
+ollama_data/
+
+## Semantic Kernel temporary data
+.skcache/
+sk_logs/
+kernel_cache/
+
+## Publish outputs
+/dist/
+artifacts/
+build/
+deploy/
+release/
+*.publishsettings
+*.Publish.xml
+
+## OS generated
+ehthumbs.db
+Icon?
+Desktop.ini
+
+## Other tools
+*.tlog
+*.vsix
+*.dbmdl
+*.mdf
+*.ldf
+
+## Test data / coverage
+coverage/
+.coverage
+coverage.json
+*.coveragexml
+lcov.info
+
+# ===========================================
+# ✅ End of .gitignore
+# ===========================================
